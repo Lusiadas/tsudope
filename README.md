@@ -10,7 +10,7 @@ Prefix your command line with `tsudo ` using a keyboard shortcut. An adaptation 
 
 ### Usage
 
-Press `Alt`+`s` to activate it. It will add `tsudo ` to the beginning of the line if missing, remove it if it is present while preserving the cursor position. If the current line is empty, it will do the same thing to the most recent history item.
+Press `Alt`+`s` to activate it. It will add `tsudo` to the beginning of the line if it is missing, or remove it if it is present, while preserving the cursor position. If the current line is empty, it will repeat the previous line prefixed with `tsudo`, if it wasn't already.
 
 ### Install
 
